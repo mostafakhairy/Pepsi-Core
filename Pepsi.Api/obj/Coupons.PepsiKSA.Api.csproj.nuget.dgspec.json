@@ -1,0 +1,196 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Dsquares.Repo\\Coupons\\Coupons.PepsiKSA.Api\\Coupons.PepsiKSA.Api.csproj": {}
+  },
+  "projects": {
+    "E:\\Dsquares.Repo\\Coupons\\Coupons.PepsiKSA.Api\\Coupons.PepsiKSA.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Dsquares.Repo\\Coupons\\Coupons.PepsiKSA.Api\\Coupons.PepsiKSA.Api.csproj",
+        "projectName": "Coupons.PepsiKSA.Api",
+        "projectPath": "E:\\Dsquares.Repo\\Coupons\\Coupons.PepsiKSA.Api\\Coupons.PepsiKSA.Api.csproj",
+        "packagesPath": "C:\\Users\\moustafa.khairy\\.nuget\\packages\\",
+        "outputPath": "E:\\Dsquares.Repo\\Coupons\\Coupons.PepsiKSA.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "E:\\Dsquares.Repo\\Coupons\\.nuget\\NuGet.Config",
+          "C:\\Users\\moustafa.khairy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\Dsquares.Repo\\Coupons\\Coupons.PepsiKSA.Files\\Coupons.PepsiKSA.Files.csproj": {
+                "projectPath": "E:\\Dsquares.Repo\\Coupons\\Coupons.PepsiKSA.Files\\Coupons.PepsiKSA.Files.csproj"
+              },
+              "E:\\Dsquares.Repo\\Coupons\\EmailService\\EmailService.csproj": {
+                "projectPath": "E:\\Dsquares.Repo\\Coupons\\EmailService\\EmailService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AspNetCoreRateLimit": {
+              "target": "Package",
+              "version": "[3.0.5, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "BouncyCastle.NetCore": {
+              "target": "Package",
+              "version": "[1.8.6, )"
+            },
+            "BouncyCastle.NetCoreSdk": {
+              "target": "Package",
+              "version": "[1.9.3.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.CodeAnalysis.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.NetCore.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.9.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "SecurityCodeScan": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.5.3, )"
+            },
+            "Sentry": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            },
+            "Sentry.AspNetCore": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            },
+            "Sentry.Extensions.Logging": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            },
+            "System.Diagnostics.PerformanceCounter": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            },
+            "System.Security.Cryptography.Algorithms": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            },
+            "System.Threading": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Threading.AccessControl": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Dsquares.Repo\\Coupons\\Coupons.PepsiKSA.Files\\Coupons.PepsiKSA.Files.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\Dsquares.Repo\\Coupons\\Coupons.PepsiKSA.Files\\Coupons.PepsiKSA.Files.csproj",
+        "projectName": "Coupons.PepsiKSA.Files",
+        "projectPath": "E:\\Dsquares.Repo\\Coupons\\Coupons.PepsiKSA.Files\\Coupons.PepsiKSA.Files.csproj"
+      },
+      "frameworks": {
+        "net40": {}
+      }
+    },
+    "E:\\Dsquares.Repo\\Coupons\\EmailService\\EmailService.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\Dsquares.Repo\\Coupons\\EmailService\\EmailService.csproj",
+        "projectName": "EmailService",
+        "projectPath": "E:\\Dsquares.Repo\\Coupons\\EmailService\\EmailService.csproj"
+      },
+      "frameworks": {
+        "net452": {}
+      }
+    }
+  }
+}
